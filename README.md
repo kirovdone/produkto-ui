@@ -11,9 +11,9 @@ stylesheet and one set of theme tokens.
 npm install @produkto/ui
 ```
 
-Produkto UI needs React 19 and Tailwind CSS 4, and runs in any React framework: Next.js,
-Vite, Remix, React Router, Astro and the rest. Its other libraries are peer dependencies,
-which npm lists when you install it.
+Produkto UI brings the libraries it uses with it, so your project needs only React 19 and
+Tailwind CSS 4. It runs in any React framework: Next.js, Vite, Remix, React Router, Astro
+and the rest.
 
 Add the stylesheet after Tailwind and let Tailwind scan the package:
 
@@ -81,3 +81,7 @@ make the kit yours.
 ## Versions
 
 Until 1.0 a minor version may include breaking changes. Early releases use the `alpha` tag.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
